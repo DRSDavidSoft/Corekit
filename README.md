@@ -10,11 +10,15 @@
 
 This is the **CoreKit** project, a _unified_ package that provides several toolkits neccassry to build and develop modern php projects.
 
-CoreKit aims to be an all-in-one solution for most basic and essential needs.
+CoreKit aims to be an all-in-one solution for most basic and essential needs.<br/><br/><br/>
 
-#### Development State
+### Development State
 
 🔥 The CoreKit project is under active development, and while the state of this project is `work-in-progress`, stable releases might _not_ be available for general use.
+
+### Modern PHP
+
+The project has an emphasis on using **modern** featuers of PHP 7.x and newer releases.
 
 ### Provided Kits
 
@@ -22,15 +26,11 @@ CoreKit aims to be an all-in-one solution for most basic and essential needs.
 
 | **Filename**           | Feature Description                                        |              Progress |
 | :--------------------- | :--------------------------------------------------------- | --------------------: |
+| `cURL.php`             | **Remote Connections**, HTTP Web Requests                  | _needs-refactoring_   |
 | `Files.php`            | **IO** Local File Management                               | _unfinished_          |
 | `Database.php`         | **SQL Query Builder**, SQL–based database connection       | _working_             |
 | `Webpage.php`          | **HTML Manipulation**, Webpage Templating                  | _work-in-progress_    |
 | `Router.php`           | **Request Manager**, URL–based Routing                     | _working_             |
-| `cURL.php`             | **Remote Connections**, HTTP Web Requests                  | _needs-refactoring_   |
-
-### Modern PHP
-
-The project has an emphasis on using **modern** featuers of PHP 7.x and newer releases.
 
 ## Documentation
 
